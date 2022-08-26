@@ -10,6 +10,7 @@ type Product struct {
 }
 
 func GetAll() ([]Product, error) {
+	
 	con := Connect()
 
 	sql := "select * from product"

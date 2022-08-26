@@ -3,13 +3,13 @@ package models
 import (
 		"fmt"
 		"database/sql"
-		"github.com/go-sql-driver/mysql"
+	_ "github.com/go-sql-driver/mysql"
 		
 )
 
 const DRIVER = "mysql"
 const USER = "root"
-const PASS = "@rott"
+const PASS = "@root"
 const DBNAME = "test"
 
 func Connect () *sql.DB {

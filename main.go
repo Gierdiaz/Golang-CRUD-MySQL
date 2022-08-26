@@ -2,7 +2,7 @@ package main
 
 import (
 		"fmt"
-		"./models"
+		"app/models"
 )
 
 func main() {
@@ -12,7 +12,7 @@ func main() {
 		fmt.Println("Ops! Ocorreu um erro")
 	}
 
-	fmt.Println("Lista de producots:\n")
+	fmt.Println("Lista de produtos:\n")
 
 	fmt.Println(products)
 }

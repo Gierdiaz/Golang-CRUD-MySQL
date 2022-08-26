@@ -8,7 +8,7 @@ create table product(
     quantity int,
     price decimal(10,2),
     amount decimal(10,2),
-    created_at timestamp default current_time()
+    created_at timestamp default current_timestamp()
 );
 
 insert into product (description, quantity, price, amount) values
